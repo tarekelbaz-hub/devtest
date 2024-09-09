@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: devops-demo
+  labels:
+     app: devops-demo
+spec:
+     containers:
+     - name: devops-demo-container
+       image: minabahgat/devops-demo
